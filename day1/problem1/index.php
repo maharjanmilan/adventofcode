@@ -1,6 +1,6 @@
 <?php
 
-$input = file("input", FILE_IGNORE_NEW_LINES);
+$input = file(__DIR__ . "/../input", FILE_IGNORE_NEW_LINES);
 
 foreach($input as $number){
 	if(!empty($temp[$number])) {
